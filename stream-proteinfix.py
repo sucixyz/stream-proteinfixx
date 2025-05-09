@@ -93,7 +93,7 @@ if st.button("Hitung Kebutuhan Protein"):
     st.success(f"Kebutuhan protein berdasarkan aktivitas: {kebutuhan1} gram")
     st.success(f"Kebutuhan protein berdasarkan usia & jenis kelamin: {kebutuhan2} gram")
 
-    elif menu == 'Perkenalan Kelompok':
+    elif menu=='Perkenalan Kelompok':
         st.subheader('Kelompok 3 (1E-PMIP)')
         st.write('Anggota:')
         st.write('1. Dhika Nurafliansyah (2320517)')
@@ -102,7 +102,7 @@ if st.button("Hitung Kebutuhan Protein"):
         st.write('4. Khaira Mutya Arrahman (2320533)')
         st.write('5. Marsya Kaila Avridita Mulyono (2320535)')
 
-    elif menu == 'Tentang Aplikasi':
+    elif menu=='Tentang Aplikasi':
         st.subheader('Tentang Aplikasi')
         st.markdown('<style>.my-gif { width: 500px; height: auto; }</style>', unsafe_allow_html=True)
         st.markdown('<img src="https://jonmgomes.com/wp-content/uploads/2020/05/Comp_1.gif" class="my-gif">', unsafe_allow_html=True)
